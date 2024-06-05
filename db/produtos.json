@@ -1,0 +1,51 @@
+{
+    "camisas":[ 
+            {
+                "id": 1,
+                "nome": "Produto 1",
+                "preco": 79.90,
+                "sexo": "M",
+                "descricao": "Camisa 1",
+                "imagem": "/img/camisa-bege-dual-match.png"
+            },
+
+            {
+                "id": 2,
+                "nome": "Produto 2",
+                "preco": 119.90,
+                "descricao": "Camisa 2",
+                "imagem": ""
+            },
+            {
+                "id": 3,
+                "nome": "Produto 3",
+                "preco": 290.90,
+                "descricao": "Camisa 3",
+                "imagem": ""
+            }
+        ],
+    "calças":[ 
+        {
+            "id": 1,
+            "nome": "Produto 1",
+            "preco": 79.90,
+            "descricao": "Camisa 1",
+            "imagem": ""
+        },
+
+        {
+            "id": 2,
+            "nome": "Produto 2",
+            "preco": 119.90,
+            "descricao": "Camisa 2",
+            "imagem": ""
+        },
+        {
+            "id": 3,
+            "nome": "Produto 3",
+            "preco": 290.90,
+            "descricao": "Camisa 3",
+            "imagem": ""
+        }
+    ]
+}
