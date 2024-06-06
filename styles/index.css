@@ -1,0 +1,57 @@
+@import url('https://fonts.cdnfonts.com/css/eater');
+@import url('https://fonts.cdnfonts.com/css/heading-pro-wide-trial');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Garante que o footer fique no fundo */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+header h1 {
+    margin-top: 1cqmax;
+    margin-left: 80px;
+    font-size: 2.5em;
+    /*font-family: 'Eater', sans-serif;*/
+    font-weight: 850;
+    font-family: 'Heading Pro Wide Trial', sans-serif;
+}
+
+nav {
+    text-align: right;
+    margin-right: 15px;
+}
+
+nav a {
+    margin: 0 15px;
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    flex: 1; /* Garante que o conteúdo principal ocupe o espaço restante */
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    margin-top: auto; /* Empurra o footer para o fundo */
+}

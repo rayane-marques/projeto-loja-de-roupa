@@ -1,50 +1,23 @@
-@import url('https://fonts.cdnfonts.com/css/eater');
-@import url('https://fonts.cdnfonts.com/css/heading-pro-wide-trial');
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 40px 0;
-}
-header h1 {
-    margin-top: 1cqmax;
-    margin-left: 80px;
-    font-size: 2.5em;
-    /*font-family: 'Eater', sans-serif;*/
-    font-weight: 850;
-    font-family: 'Heading Pro Wide Trial', sans-serif;
-                                                
-}
-nav {
-    text-align: right;
-    margin-right: 15px;
-}
-nav a {
-    margin: 0 15px;
-    font-size: 0.8em;
-    text-decoration: none;
-    color: #fff;
+.modeloRoupa {
+    margin-top: 20px;
 }
 
-.containerCamisas {
+.modeloRoupa h2 {
+    margin-left: 285px;
+}
+
+.containerCamisas, .containerCalcas {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
     padding: 20px;
 }
 
-.containerCalcas {
+.products {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 20px;
 }
+
 .product {
     background-color: #fff;
     border: 1px solid #ddd;
@@ -54,21 +27,26 @@ nav a {
     width: 200px;
     transition: box-shadow 0.3s ease;
 }
+
 .product:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
 .product img {
     max-width: 100%;
     height: auto;
 }
+
 .product h2 {
     font-size: 1.2em;
     margin: 10px 0;
 }
+
 .product p {
     font-size: 1em;
     color: #333;
 }
+
 .product button {
     background-color: #333;
     color: #fff;
@@ -77,9 +55,11 @@ nav a {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
 .product button:hover {
     background-color: #555;
 }
+
 footer {
     text-align: center;
     padding: 20px 0;
@@ -88,4 +68,3 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
